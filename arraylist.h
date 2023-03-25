@@ -90,6 +90,7 @@ class ArrayList : public List { // : means "is-a" / extend
         }
 
         void flip() {
+        	//Invere of the Array List
             int mid = index/2;
             int other = index-1;
             for(int i=0; i<mid; i++) {
